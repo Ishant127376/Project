@@ -1,0 +1,77 @@
+/* Overall container */
+.room-container {
+    padding: 20px;
+    background: url("./r.png") no-repeat center center/cover; /* Use your image path */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  /* Title styles */
+  .room-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Connection status text */
+  .connection-status {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons container */
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* Button styles */
+  .stream-button,
+  .call-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .stream-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .stream-button:hover {
+    background-color: #218838;
+  }
+  
+  .call-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .call-button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Container for video streams */
+  .streams-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Styling for individual stream cards */
+  .stream-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+  }
+  
